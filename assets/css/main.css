@@ -221,11 +221,11 @@ input, select, textarea {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
-		align-items: stretch;
 	}
 
 		.row > * {
 			box-sizing: border-box;
+			align-self: center;
 		}
 
 		.row.gtr-uniform > * > :last-child {
@@ -465,6 +465,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+
 			}
 
 				.row > * {
@@ -1777,38 +1778,9 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
-/* Contact */
 
-	ul.contact {
-		list-style: none;
-		padding-left: 0;
-	}
+/* Email */
 
-		ul.contact li {
-			position: relative;
-			border-top: solid 1px #ddd;
-			padding: 1.3em 0 1.3em 7em;
-		}
-
-			ul.contact li h3 {
-				position: absolute;
-				left: 0;
-				top: 1.3em;
-				font-size: 1.1em;
-			}
-
-			ul.contact li p {
-				margin: 0;
-			}
-
-			ul.contact li:first-child {
-				padding-top: 0;
-				border-top: 0;
-			}
-
-				ul.contact li:first-child h3 {
-					top: 0;
-				}
 
 /* Dates */
 
@@ -2079,6 +2051,7 @@ input, select, textarea {
 			letter-spacing: -0.035em;
 			line-height: 1;
 		}
+
 
 /* Nav */
 
@@ -2906,3 +2879,5 @@ input, select, textarea {
 			}
 
 	}
+
+
